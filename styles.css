@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Nunito+Sans:wght@300;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+.box-time {
+    text-align: center;
+}
+
+.box-time h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .countdown {
+        flex-direction: column;
+    }
+}
