@@ -1,4 +1,4 @@
-const countdownDate = new Date("August 23, 2025 00:00:00 GMT+0700").getTime();
+const countdownDate = new Date("April 23, 2025 13:45:00 GMT+0700").getTime();
 
 const countdownFunction = setInterval(function() {
     const now = new Date().getTime();
